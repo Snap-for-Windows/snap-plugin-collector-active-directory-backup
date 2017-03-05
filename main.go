@@ -14,7 +14,7 @@ const (
 //plugin bootstrap
 func main() {
 	plugin.StartCollector(
-		activedirectory.ActiveDirectory{},  
+		activedirectory.ActiveDirectoryCollector{},  
 		pluginName,               
 		pluginVersion)
 }
