@@ -60,26 +60,6 @@ Currently, this plugin has the ability to gather the following metrics:
 
 Namespace | Description (optional)
 ----------|-----------------------
-
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
-
 /intel/activedirectory/dra_inbound_bytes | Shows the total number of bytes replicated in. It is the sum of the number of uncompressed bytes (never compressed) and the number of compressed bytes (after compression)
 /intel/activedirectory/dra_inbound_objects | Shows the number of objects received from neighbors through inbound replication. A neighbor is a domain controller from which the local domain controller replicates locally
 /intel/activedirectory/dra_inbound_values | Shows the total number of object property values received from inbound replication partners. Each inbound object has one or more properties, and each property has zero or more values. Zero values indicates property removal.
